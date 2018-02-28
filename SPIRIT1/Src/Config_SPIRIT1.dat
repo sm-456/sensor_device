@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DeviceToSerialize xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<SPIRIT1_Configuration>
+		<configuration_name>Config_SPIRIT1</configuration_name>
+		<configuration_radio>
+			<frequency_base>867.999967</frequency_base>
+			<channel_space>1.5</channel_space>
+			<channel_number>0</channel_number>
+			<modulation>1</modulation>
+			<data_rate>38.433</data_rate>
+			<frequency_deviation>19.836</frequency_deviation>
+			<channel_filter>102.115</channel_filter>
+			<output_power>11.00</output_power>
+		</configuration_radio>
+		<configuration_packet>
+			<packet_format>BASIC</packet_format>
+			<preamble_length>4</preamble_length>
+			<sync_length>2</sync_length>
+			<sync>88880000</sync>
+			<crc_mode>2</crc_mode>
+			<fec>1</fec>
+			<whitening>1</whitening>
+		</configuration_packet>
+	</SPIRIT1_Configuration>
+</DeviceToSerialize>
